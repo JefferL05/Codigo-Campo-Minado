@@ -101,7 +101,7 @@ function init(cell) {
         }
         cell.innerHTML = mineCount;
         if (mineCount == 0) {
-          // if cell don't have mine
+          // Se a celula não estiver clicado
           {
             for (
               var j = Math.max(cellRow - 1, 0);
